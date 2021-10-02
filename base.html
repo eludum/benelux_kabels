@@ -47,6 +47,8 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<link rel="stylesheet" href="css/carousel.css"> 
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -54,31 +56,41 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+	<link rel="stylesheet" href="css/galerij.css">
+                    
+	<!-- 1. Add latest jQuery and fancybox files -->
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+		
 	</head>
 	<body>
 		
 	<div class="colorlib-loader"></div>
 
 	<div id="page">
-		<nav class="colorlib-nav" role="navigation">
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">Benelux Kabels</a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="projecten.html">Projecten</a></li>
-								<li><a href="veiligheid.html">Veiligheid</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
+			<nav class="colorlib-nav" role="navigation">
+					<div class="top-menu">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-2">
+									<div id="colorlib-logo"><a href="index.html">Benelux Kabels</a></div>
+								</div>
+								<div class="col-xs-10 text-right menu-1">
+									<ul>
+                                        <!-- <li class="active"> -->
+										<li><a href="index.html">Home</a></li>
+                                        <li><a href="projecten.html">Projecten</a></li>
+                                        <li><a href="veiligheid.html">Veiligheid</a></li>
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		</nav>
+				</nav>
 		
         {% block content %}
         {% endblock %}
