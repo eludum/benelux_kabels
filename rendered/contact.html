@@ -116,24 +116,94 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-10 col-md-offset-1 animate-box">
-							<h2>Contact Informatie</h2>
-							<div class="row contact-info-wrap">
-								<div class="col-md-3">
-									<p><span><i class="icon-location-2"></i></span> Zwaanstraat 3A <br> 9240 Zele</p>
+							<!--Section: Contact v.2-->
+							<section class="mb-4">
+								<div class="row">
+									<div class="row contact-info-wrap">
+										<div class="col-md-offset-1 col-md-4">
+											<p><span><i class="icon-location-2"></i></span> Zwaanstraat 3A 9240 Zele</p>
+										</div>
+										<div class="col-md-3">
+											<p><span><i class="icon-phone3"></i></span> <a href="tel://+32484445725">+ 32 484 44 57 25</a></p>
+										</div>
+										<div class="col-md-4">
+												<p><span><i class="icon-paperplane"></i></span> <a href="mailto:info@benelux-kabels.be">info@benelux-kabels.be</a></p>
+										</div>
+									</div>
 								</div>
-								<div class="col-md-3">
-									<p><span><i class="icon-phone3"></i></span> <a href="tel://+32484445725">+ 32 484 44 57 25</a></p>
-									<p><span><i class="icon-phone3"></i></span> <a href="tel://+32487762225">+ 32 487 76 22 25</a></p>
+
+								<div class="row">
+
+									<!--Grid column-->
+									<div class="col">
+										<form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+											<!--Grid row-->
+											<div class="row">
+
+												<!--Grid column-->
+												<div class="col">
+													<div class="md-form mb-0">
+														<input type="text" id="name" name="name" class="form-control">
+														<label for="name" class="">Naam</label>
+													</div>
+												</div>
+												<!--Grid column-->
+
+												<!--Grid column-->
+												<div class="col">
+													<div class="md-form mb-0">
+														<input type="text" id="email" name="email" class="form-control">
+														<label for="email" class="">Email</label>
+													</div>
+												</div>
+												<!--Grid column-->
+
+											</div>
+											<!--Grid row-->
+
+											<!--Grid row-->
+											<div class="row">
+												<div class="col">
+													<div class="md-form mb-0">
+														<input type="text" id="subject" name="subject" class="form-control">
+														<label for="subject" class="">Onderwerp</label>
+													</div>
+												</div>
+											</div>
+											<!--Grid row-->
+
+											<!--Grid row-->
+											<div class="row">
+
+												<!--Grid column-->
+												<div class="col">
+
+													<div class="md-form">
+														<textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+														<label for="message">Bericht</label>
+													</div>
+
+												</div>
+											</div>
+											<!--Grid row-->
+
+										</form>
+
+										<div class="text-center text-md-left">
+											<a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Verstuur</a>
+										</div>
+										<div class="status"></div>
+									</div>
+
 								</div>
-								<div class="col-md-4">
-									<p><span><i class="icon-paperplane"></i></span> <a href="mailto:benelux-kabels@hotmail.com">benelux-kabels@hotmail.com</a></p>
-								</div>
-								<div class="col-md-4">
-										<p><span><i class="icon-paperplane"></i></span> <a href="mailto:info@benelux-kabels.be">info@benelux-kabels.be</a></p>
-								</div>
-							</div>
+
+							</section>
+							<!--Section: Contact v.2-->
+
 						</div>
 				</div>
+				<br>
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2507.1923572992036!2d4.036099915753883!3d51.0679990795653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c39a7fd5789b83%3A0x6e2b5bd71f1c6cad!2sZwaanstraat%203a%2C%209240%20Zele!5e0!3m2!1sen!2sbe!4v1606659304125!5m2!1sen!2sbe" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 			</div>
 		</div>
